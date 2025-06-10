@@ -16,9 +16,9 @@ blackText = (0, 0, 0)
 # Prepares the font used in the while True loop
 font = pygame.font.SysFont('Times New Roman', 30)  # Sets up the font and size
 
-unlitCandles = pygame.image.load("sc-unlit.png")
+unlitCandles = pygame.image.load("sc-unlit.png")  # Custom image
 unlitCandles = pygame.transform.scale(unlitCandles, (1487.5, 1925))
-litCandles = pygame.image.load("sc-lit.png")
+litCandles = pygame.image.load("sc-lit.png")  # Custom Image
 litCandles = pygame.transform.scale(litCandles, (1487.5, 1925))
 
 lightCandles = False
