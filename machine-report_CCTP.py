@@ -1,3 +1,7 @@
+"""
+Made by Noga Levy in 2025. Will come back to finish this later.
+"""
+
 total_info = {0: ["Sarah", 1, "Login", "Dec 27, 2024"], 1: ["Sarah", 1, "Logout", "Dec 27, 2024"]}
 
 
