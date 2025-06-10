@@ -17,4 +17,5 @@ Shower thoughts, mostly. Then a couple of hours of coding. Repeat, and you get t
 
 # Contact
 Gmail: nogalevy17@gmail.com
+
 Link: https://github.com/Noga-Levy/python2025
