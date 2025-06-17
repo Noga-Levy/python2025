@@ -28,20 +28,35 @@ Proof: The equation simplifies to 76, as the number chosen is cancelled in the l
 
 """
 
-for originalNum in range(12):
-    nextNumInSeries = originalNum + 38
-    print(nextNumInSeries)
+originalNum = input("We're going to do a magic trick! Please input your number ")
 
-    nextNumInSeries = nextNumInSeries / 2
-    print(nextNumInSeries)
+number = False
+while not number:
+    try:
+        originalNum = float(originalNum)
 
-    nextNumInSeries = nextNumInSeries * 51
-    print(nextNumInSeries)
+    except TypeError:
+        originalNum = input("Please, re-input your number without any letters: ")
 
-    nextNumInSeries = nextNumInSeries / 17
-    print(nextNumInSeries)
+    except ValueError:
+        originalNum = input("Please, re-input your number, and be mindful of how many periods you add: ")
 
-    nextNumInSeries = nextNumInSeries * 4/3
+    else:
+        number = True
 
-    nextNumInSeries = nextNumInSeries - (2 * originalNum)
-    print(f"{nextNumInSeries} \n\n\n")
+nextNumInSeries = originalNum + 38
+print(nextNumInSeries)
+
+nextNumInSeries = nextNumInSeries / 2
+print(nextNumInSeries)
+
+nextNumInSeries = nextNumInSeries * 51
+print(nextNumInSeries)
+
+nextNumInSeries = nextNumInSeries / 17
+print(nextNumInSeries)
+
+nextNumInSeries = nextNumInSeries * 4/3
+
+nextNumInSeries = nextNumInSeries - (2 * originalNum)
+print(f"{nextNumInSeries} \n\n\n")
